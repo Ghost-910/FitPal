@@ -31,10 +31,10 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 | Principle | Implementation in FITPAL |
 | :--- | :--- |
-| 🛡️ **Encapsulation** | User attributes are kept in **`private` fields** and accessed via **getters and setters** to ensure data integrity. |
-| 🧬 **Inheritance** | A base `User` class handles general profiles, while a specialized **`FitnessUser` class** adds health-specific metrics. |
-| 🎭 **Polymorphism** | Methods like `Calculate()` provide **different behaviors** depending on whether the user wants to gain or lose weight. |
-| 🔍 **Abstraction** | Hides **complex BMR/BMI math** from the user, exposing only a simple interface for input and results. |
+| 🛡️ **Encapsulation** | All fields such as age, weight, height, and password are declared private and accessed through public properties with validation. This ensures that invalid data cannot be assigned, maintaining data integrity and security. |
+| 🧬 **Inheritance** |A hierarchical relationship is implemented as Person → User → FitnessUser. The FitnessUser class inherits general attributes from Person and User while adding fitness-specific properties like weight, height, and goals, promoting code reuse and logical structure. |
+| 🎭 **Polymorphism** | MPolymorphism is achieved through method overriding. The method CalculateDailyCalories() is defined abstractly in Person, given a default implementation in User, and overridden in FitnessUser to provide a more accurate calculation. This allows the same method call to produce different results depending on the object type. |
+| 🔍 **Abstraction** | The system uses an abstract class Person to define common behaviors such as GetSummary() and CalculateDailyCalories() without providing their implementation. This allows derived classes to implement their own logic while hiding complexity from the user. |
 
 ---
 
