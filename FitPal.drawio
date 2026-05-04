@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fitness UML" id="0">
+    <mxGraphModel dx="2007" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="otnW0DCKG1s4VsElpxqA-19" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;startArrow=block;startFill=0;" target="otnW0DCKG1s4VsElpxqA-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;abstract class&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Person&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name : string&lt;br&gt;- age : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- gender : string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetSummary() : string {abstract}&lt;br&gt;+ CalculateDailyCalories() : double {abstract}&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="250" x="289" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-20" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=block;startFill=0;" target="otnW0DCKG1s4VsElpxqA-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=default;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- username : string&lt;br&gt;- password : string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetSummary() : string {override}&lt;br&gt;+ CalculateDailyCalories() : double {override}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="289" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FitnessUser&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- weightKg : double&lt;br&gt;- heightCm : double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- goal : FitnessGoal&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-progressLog : List&amp;lt;ProgressEntry&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CalculateBMI() : double&lt;br&gt;+ CalculateDailyCalories(goal) : double {override}&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetMacros() : (Protein, Carbs, Fats)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetEcercisePlan() : string {override}&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="320" x="254" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-23" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-5" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ProgressEntry" vertex="1">
+          <mxGeometry height="104" width="140" x="140" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-6" parent="otnW0DCKG1s4VsElpxqA-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ date : DateTime" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-7" parent="otnW0DCKG1s4VsElpxqA-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ weightKg : double" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-8" parent="otnW0DCKG1s4VsElpxqA-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ notes : string" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-24" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" target="otnW0DCKG1s4VsElpxqA-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FitnessGoal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;WeightLoss&lt;br&gt;&amp;nbsp;Maintenance&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;MuscleGain&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="319" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-31" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.951;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;" target="otnW0DCKG1s4VsElpxqA-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="UserRepository" vertex="1">
+          <mxGeometry height="104" width="140" x="550" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-12" parent="otnW0DCKG1s4VsElpxqA-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Login() : FitnessUser" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-13" parent="otnW0DCKG1s4VsElpxqA-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Register() : bool" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-14" parent="otnW0DCKG1s4VsElpxqA-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ UpdateUser() : Void" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-32" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" target="otnW0DCKG1s4VsElpxqA-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;WinForm&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LoginForm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;btnLogin_Click()&lt;br&gt;&amp;nbsp;btnRegister_Click()&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="115" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-33" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;entryX=0.518;entryY=0.871;entryDx=0;entryDy=0;entryPerimeter=0;" target="otnW0DCKG1s4VsElpxqA-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-37" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="otnW0DCKG1s4VsElpxqA-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-38" connectable="0" parent="otnW0DCKG1s4VsElpxqA-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="opens" vertex="1">
+          <mxGeometry relative="1" x="-0.0363" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-16" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;WinForm&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DashboardForm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;ShowOverview() / ShowBMI()&lt;br&gt;&amp;nbsp;ShowProgress() / ShowExercise()&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="500" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-35" edge="1" parent="1" source="otnW0DCKG1s4VsElpxqA-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="otnW0DCKG1s4VsElpxqA-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otnW0DCKG1s4VsElpxqA-17" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;b&gt;Program.cs&lt;/b&gt;&lt;br&gt;Application.Run()" vertex="1">
+          <mxGeometry height="50" width="110" x="359" y="1070" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
