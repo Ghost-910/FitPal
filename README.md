@@ -27,7 +27,7 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 ---
 
-### **🏗️ echnical Architecture (OOP Principles)**
+### **🏗️ Technical Architecture (OOP Principles)**
 
 | Principle | Implementation in FITPAL |
 | :--- | :--- |
