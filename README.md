@@ -38,12 +38,50 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 ---
 
-### ⚙️ **Explanation of how the program works**
-1. **Authentication**: Users register or log in to their **personalized dashboard**.
-2. **Input**: The user provides **biometric data** through a streamlined input form.
-3. **Processing**: The system calculates health metrics using the **encapsulated OOP logic**.
-4. **Delivery**: Results are displayed via the **Results/Recommendation Form**.
-5. **Monitoring**: Ongoing progress is tracked through the **dedicated tracking module**.
+### ⚙️ **Explanation of how the program run and works**
+1. FITPAL operates as a user-centered fitness tracking system that processes personal data to generate health-related recommendations. The workflow of the system is structured as follows:
+
+1. User Authentication
+
+When the application starts, the user is presented with a login interface. Users can either log in using existing credentials or create a new account through the registration form. The system validates all inputs to ensure correctness and security.
+
+2. Data Input and Validation
+
+During registration, users provide personal and fitness-related information such as name, age, gender, weight, height, and fitness goal.
+All inputs are validated using encapsulated properties to prevent invalid or unrealistic values (e.g., negative weight or invalid age).
+
+3. Object Creation and Data Handling
+
+Once registered or logged in, a FitnessUser object is created. This object stores all user-related data and serves as the core entity for processing fitness computations such as BMI, calorie needs, and macronutrient distribution.
+
+4. Dashboard Processing
+
+After login, the system navigates to the dashboard where key fitness metrics are displayed. The application automatically calculates:
+
+Body Mass Index (BMI) using height and weight
+Daily Calorie Requirements based on the user’s goal
+Macronutrient Distribution (protein, carbohydrates, and fats)
+
+These computations are performed using methods defined in the FitnessUser class.
+
+5. Fitness Modules Execution
+
+The system provides multiple functional modules:
+
+BMI Module – Displays BMI value and corresponding category
+Calorie Calculator – Computes daily calorie intake using a standard formula
+Nutrition Guide – Suggests macro distribution based on fitness goals
+Exercise Plan Generator – Produces a weekly workout plan tailored to the user’s objective
+
+Each module retrieves and processes data dynamically from the user object.
+
+6. Progress Tracking
+
+Users can log their weight over time. Each entry is stored as a ProgressEntry object and added to a collection. The system displays this data in a table format and allows users to monitor their progress and changes in weight.
+
+7. Session Management
+
+The user can log out at any time, which safely ends the session and returns the application to the login screen.
 
 ---
 
