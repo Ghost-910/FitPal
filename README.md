@@ -105,8 +105,6 @@ Users can log their weight over time. Each entry is stored as a `ProgressEntry` 
 - The user can log out at any time, which safely ends the session and returns the application to the login screen.
 ---
 
-The user can log out at any time, which safely ends the session and returns the application to the login screen.
-
 ### 👥 **Project Contributors: Cool Pals (Team 12)**
 
 **Section**: **CS-2203**
