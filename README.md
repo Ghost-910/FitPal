@@ -1,4 +1,4 @@
-# 🏃‍♂️ **FITPAL: Personalized Fitness and Nutrition Tracker**
+# 🏃‍♂️ **FITPAL: Personalized Fitness and Nutrition Coach**
 
 ---
 
@@ -114,7 +114,7 @@ The user can log out at any time, which safely ends the session and returns the 
 | 👤 Name | 🛠️ Role | 📝 Responsibilities |
 | :--- | :--- | :--- |
 | **Bulaon, Vhenise Rich Cole** | **Developer** | Data handling, calculations, and feature integration |
-| **De Castro, Aicert Reimiel** | **Developer** | System logic, coding, and **OOP implementation** |
+| **De Castro, Aicert Reimiel** | **Developer and UI Designer** | System logic, coding, deisgn, layout, and **OOP implementation** |
 | **Santiago, Francis** | **UI Designer** | Design forms, layout, and **user interface** |
 
 ---
