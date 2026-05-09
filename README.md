@@ -18,6 +18,8 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 # ✨ Features and Functionalities of the System
 
+![FITPAL DashBoard](https://github.com/Ghost-910/FitPal/blob/main/Images%20and%20assets/Uml%20diagram.jpg)
+
 | Feature | Description |
 | :--- | :--- |
 | 👤 **User Profile Management** | Securely captures and maintains **age, weight, height, and target goals**. |
