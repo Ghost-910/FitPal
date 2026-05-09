@@ -30,7 +30,7 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 # ✨ Features and Functionalities of the System
 
-![Dashboard](https://github.com/Ghost-910/FitPal/blob/main/Images%20and%20assets/FITPAL%20Dashboard.png)
+![Dashboard](Uml diagram.png)
 
 | Feature | Description |
 | :--- | :--- |
