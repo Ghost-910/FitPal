@@ -11,6 +11,8 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 ### 📐 **System Design & UML**
 
+![FITPAL UML Diagram](Uml diagram.jpg)
+
 ---
 
 ### **✨Features and Functionalities of the System**
