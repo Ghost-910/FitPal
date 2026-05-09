@@ -24,7 +24,7 @@ By synthesizing user metrics such as **age, weight, and height** with specific h
 
 ## 📐 UML Diagram
 
-![FITPAL UML Diagram](https://github.com/Ghost-910/FitPal/blob/main/Images%20and%20assets/Uml%20diagram.jpg)
+![FITPAL UML Diagram]([https://github.com/Ghost-910/FitPal/blob/main/Images%20and%20assets/Uml%20diagram.jpg](https://github.com/Ghost-910/FitPal/blob/main/Images%20and%20assets/Uml%20diagram.png))
 
 ---
 
